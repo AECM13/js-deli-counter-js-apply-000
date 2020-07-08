@@ -10,12 +10,13 @@ function nowServing(line){
   }
   var first = line[0]
   line.shift()
+
   return "Currently serving "+first+"."
 }
 function currentLine(line){
   if(line.length === 0)
     return "The line is currently empty."
-    var arr=[]
+  var arr=[]
   var cur = "The line is currently: "
   for(var i=0;i<line.length;i++){
     var number = `${i+1}. ${line[i]}`
@@ -25,7 +26,7 @@ function currentLine(line){
     else{
       cur+=number+", "
     }
+    
   }
   return cur
-  
 }

@@ -8,8 +8,8 @@ function nowServing(line){
   if(line.length===0){
     return "There is nobody waiting to be served!"
   }
-  var first = line[0]
-  line.shift()
+  var first = line.shift()
+  
 
   return "Currently serving "+first+"."
 }

@@ -1,10 +1,10 @@
-function takeANumber(line, name){
+// function takeANumber(line, name){
   
-  line.push(name)
-  var number = line.length
-  var greeting = `Welcome, ${name}. You are number ${number} in line.`
-  return greeting
-}
+//   line.push(name)
+//   var number = line.length
+//   var greeting = `Welcome, ${name}. You are number ${number} in line.`
+//   return greeting
+// }
 function nowServing(line){
   if(line.length===0){
     return "There is nobody waiting to be served!"

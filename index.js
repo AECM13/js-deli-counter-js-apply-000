@@ -12,7 +12,7 @@ function takeANumber(line){
 
   couter++
   line.push(counter)
-  var greeting = `Welcome, You are number ${number} in line.`
+  var greeting = `Welcome, You are number ${counter} in line.`
   
 }
 

@@ -9,8 +9,6 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   }
   var first = line.shift()
-  
-
   return "Currently serving "+first+"."
 }
 function currentLine(line){

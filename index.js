@@ -5,6 +5,17 @@
 //   var greeting = `Welcome, ${name}. You are number ${number} in line.`
 //   return greeting
 // }
+
+var counter = 0;
+
+function takeANumber(line){
+
+  couter++
+  line.push(counter)
+  var greeting = `Welcome, You are number ${number} in line.`
+  
+}
+
 function nowServing(line){
   if(line.length===0){
     return "There is nobody waiting to be served!"
